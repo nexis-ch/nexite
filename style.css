@@ -5,7 +5,7 @@
   --page-max-width: 1400px;
   --spacing: 16px;
   --spacing-gallery: 32px;
-  --font: monospace;
+  --font: "Roboto Mono";
 
   /* --breakpoint-sm: 576px:
   --breakpoint-md: 768px:
@@ -15,18 +15,20 @@
 }
 
 body {
-  align-items: center;
   background-color: #202030;
   color: #c0c0ff;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: var(--font);
+  font-size: small;
+  line-height: 1.25;
   margin: 2rem 2rem;
 }
 
 @media (min-width: 768px) {
   body {
-    font-size: x-large;
+    font-size: large;
   }
 }
 
